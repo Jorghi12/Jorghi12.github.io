@@ -1,65 +1,112 @@
-<!doctype html>
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Jorg Doku</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Favorite Books of 2017 | Jorg Doku</title>
 
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="javascripts/bootstrap.min.css">
+    <link rel="stylesheet" href="javascripts/font-awesome.min.css">
+    <link rel="stylesheet" href="javascripts/clean-blog.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <!-- Bootstrap core CSS -->
-    <link href="javascripts/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom fonts for this template -->
-    <link href="javascripts/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <!-- Custom styles for this template -->
-    <link href="javascripts/clean-blog.min.css" rel="stylesheet">
-
-    <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet">
 
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-  <body>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-size: 14px;
+        }
+        h1 { font-size: 2.2em; margin-bottom: 20px; }
+        h2 { font-size: 1.8em; margin-top: 30px; margin-bottom: 15px; }
+        h3 { font-size: 1.3em; margin-top: 25px; margin-bottom: 10px; }
+        .book {
+            margin-bottom: 25px;
+            padding: 15px;
+            border: 1px solid #eaecef;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        .book h3 { margin-top: 0; color: #0366d6; }
+        .book p { margin-bottom: 10px; }
+        p { font-size: 14px; }
+        .author { font-style: italic; color: #586069; }
+    </style>
+</head>
+
+<body>
     <div class="wrapper">
-      <section style='width:100%;margin-top:-0px'>
-        <h1 style='font-size:48px;text-align:center'>My favorite books of 2017</h1>
+        <article>
+            <header>
+                <h1>My Favorite Books of 2017</h1>
+            </header>
 
-        <!-- Post Content -->
-    <article>
-      <div class="container">
-        <div class="row">
-            <div class="col-sm-6 col-lg-10 col-md-10 mx-auto" style='color:black;font-size:20px'>
-            <p>Over the last year, I’ve voraciously read through hundreds of books touching a vast number of subjects. Here I'll share a few of my favorites.</p>
+            <section class="introduction">
+                <p>Over the last year, I've voraciously read through hundreds of books touching a vast number of subjects. Here, I'll share a few of my favorites that have expanded my thinking and provided valuable insights.</p>
+            </section>
 
-            <p><b>Ben Horowitz: The Hard Thing about Hard Things</b> — If you want to hear about the harsh realities of starting a company, then Ben Horowitz is your man. He talks about hiring correctly at different stages of your company, firing personal, etc. He starts each chapter with old school rap lyrics, which is another great reason to read it.</p>
-            <p><b>Brad Stone: The Everything Store</b> — The book is very well written and does an amazing job describing the uniqueness of both Jeff Bezos and Amazon.</p>
-            <p><b>Ray Dalio: Principles</b> — In the book, Principles, Ray Dalio does a great job convincing you why having well thought out Principles is important for living a great life. “Ray Dalio has provided me with invaluable guidance and insights that are now available to you in Principles.” — Bill Gates.</p>
-            <p><b>Reid Hoffman: The Startup Of You</b> — Generally when people hear the word start up, they imagine an innovative company. In The Startup of You, Reid Hoffman reminds you of the most important start up, YOU, and how to build your career. “Everyone, women and men alike, needs to think big to succeed. This is a practical book that shows you how to take control and build a career that will enable you to have real impact.” -Sheryl Sandberg, Chief Operating Officer, Facebook.</p>
-            <p><b>Nassim Nicholas Taleb: The Black Swan</b> — Nassim Taleb coins the term “Black Swan”. A Black Swan event is a nearly impossible to predict event (an outlier) with extreme ramifications, generally explained via hindsight bias in order to make it appear predictable, a la the narrative fallacy. “The Black Swan changed my view of how the world works.” — Daniel Kahneman, Nobel laureate.</p>
-            <p><b>Daniel Susskind and Richard Susskind</b> — The Future of Professions — In the Future of Professions, Daniel and Richard believe that a radical shift in our society is coming and we must prepare ourselves. They give an overview of prior technological advancements and attempt to make predictions on the future.</p>
+            <section class="book-reviews">
+                <h2>Top Picks</h2>
 
-            <h2 class="section-heading" style='color:black;text-align:center'>In Summary</h2>
-            <p>These are the books that I've read most recently that I found to expand one's style of thought. I encourage you to share your favorite list as well. Always looking for fascinating reads.</p>
+                <div class="book">
+                    <h3>The Hard Thing About Hard Things</h3>
+                    <p class="author">Ben Horowitz</p>
+                    <p>For an unvarnished look at the challenges of starting a company, Ben Horowitz delivers. He covers crucial topics like hiring for different company stages and the difficult task of firing personnel. Each chapter opens with old-school rap lyrics, adding a unique flavor to the read.</p>
+                </div>
 
-            <p></p>
+                <div class="book">
+                    <h3>The Everything Store</h3>
+                    <p class="author">Brad Stone</p>
+                    <p>This well-crafted narrative brilliantly captures the essence of both Jeff Bezos and Amazon, highlighting their distinctive qualities and impact on the business world.</p>
+                </div>
 
-          </div>
-        </div>
-      </div>
-    </article>
+                <div class="book">
+                    <h3>Principles</h3>
+                    <p class="author">Ray Dalio</p>
+                    <p>Dalio makes a compelling case for the importance of well-thought-out principles in leading a fulfilling life. As Bill Gates notes, "Ray Dalio has provided me with invaluable guidance and insights that are now available to you in Principles."</p>
+                </div>
 
-    <hr>
+                <div class="book">
+                    <h3>The Startup of You</h3>
+                    <p class="author">Reid Hoffman</p>
+                    <p>Hoffman reframes the concept of a startup, focusing on personal career development. Sheryl Sandberg, COO of Facebook, praises it as "a practical book that shows you how to take control and build a career that will enable you to have real impact."</p>
+                </div>
 
-      </section>
+                <div class="book">
+                    <h3>The Black Swan</h3>
+                    <p class="author">Nassim Nicholas Taleb</p>
+                    <p>Taleb introduces the concept of a "Black Swan" event - an unpredictable occurrence with extreme consequences, often rationalized in hindsight. Nobel laureate Daniel Kahneman states, "The Black Swan changed my view of how the world works."</p>
+                </div>
+
+                <div class="book">
+                    <h3>The Future of Professions</h3>
+                    <p class="author">Daniel Susskind and Richard Susskind</p>
+                    <p>The Susskinds predict a radical shift in society and emphasize the need for preparation. They provide an overview of past technological advancements and offer insights into potential future developments.</p>
+                </div>
+            </section>
+
+            <section class="conclusion">
+                <h2>In Summary</h2>
+                <p>These books have significantly expanded my perspective and thought processes. I encourage you to explore them and to share your own favorite reads. I'm always eager to discover fascinating new books.</p>
+            </section>
+        </article>
     </div>
+
     <script src="javascripts/scale.fix.js"></script>
-  </body>
+</body>
 </html>
