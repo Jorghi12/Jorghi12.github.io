@@ -20,7 +20,7 @@ participate safely.
   connection.
 - Reworked the posting flow into a structured "look + ask" composer without a
   schema migration by encoding the ask type into the existing post title.
-- Updated feed framing so the old dating-style "Celebs" language becomes safer
+- Updated feed framing so the old celebrity-style tab language becomes safer
   product language.
 - Refocused Explore toward style tags, advice topics, region, and online-now
   discovery instead of identity-first discovery.
@@ -29,6 +29,10 @@ participate safely.
 - Added a Safety Center screen in settings.
 - Reframed premium and waiting-list UI away from "pay to get in" positioning.
 - Changed backend account creation so DMs are closed by default.
+- Added safer profile/social framing so off-platform handles and feedback DMs
+  feel optional instead of central to growth.
+- Updated fullscreen media viewing so the structured ask type and prompt remain
+  visible outside the feed card.
 
 ## Intentionally Deferred To Phase 2
 
@@ -40,6 +44,7 @@ participate safely.
 - City mode, travel mode, advanced discovery, and visibility tools.
 - Production-grade receipt validation and broader monetization work.
 - More complete cleanup of legacy copy across every secondary screen.
+- Authoritative App Store / Google Play receipt verification.
 
 ## Likely Future Schema / Backend Additions
 
@@ -58,3 +63,16 @@ participate safely.
   history.
 - Sample config files and runtime-injected secrets should be preferred over
   committed environment secrets.
+- Files in the current tree such as `Backend-Dart/.env.development`,
+  `Backend-Dart/repo-key`, `Mobile-Dart/GoogleService-Info.plist`, and
+  `Mobile-Dart/keystore.jks` should be treated as local/runtime artifacts and
+  moved out of version control in a follow-up cleanup.
+
+## IAP Validation Note
+
+- The current payment flow keeps the UI coherent but does not yet perform
+  authoritative server-side receipt validation.
+- Mobile currently performs only a lightweight verification-data presence check.
+- Backend `validate_iap` currently stores submitted purchase data but still
+  needs real App Store / Google Play validation before entitlements should be
+  trusted in production.
