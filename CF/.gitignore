@@ -1,1 +1,24 @@
 CF.zip
+
+# OS / editor noise
+.DS_Store
+**/.DS_Store
+*.log
+
+# Dart / Flutter build artifacts
+**/.dart_tool/
+**/build/
+**/doc/api/
+
+# Local environment and secret files
+**/.env
+**/.env.*
+**/repo-key
+**/repo-key.pub
+**/*.pem
+**/*.p12
+**/*.jks
+**/key.properties
+**/google-services.json
+**/GoogleService-Info.plist
+**/serviceAccount.json
