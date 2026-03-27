@@ -1,8 +1,8 @@
-# Club Femboy Product Pivot
+# Lilt Product Pivot
 
 ## Thesis
 
-Club Femboy is shifting away from a generic dating-style social product and
+Lilt is shifting away from a generic dating-style social product and
 toward a safer, stronger wedge:
 
 - an 18+ only network
