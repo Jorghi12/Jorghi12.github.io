@@ -1,0 +1,1 @@
+{"domain":null,"expires":"2026-04-07T19:51:49.525449","http_only":true,"max_age":null,"name":"session","path":"/","secure":true,"value":"ki9eMIhxbCkAAyTjfPRJRw=="}

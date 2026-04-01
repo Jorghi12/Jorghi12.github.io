@@ -1,0 +1,94 @@
+{
+  "qaRunId": "20260331202327",
+  "qaEmail": "iosqa_20260331202327@example.com",
+  "checks": [
+    {
+      "step": "01_login_screen",
+      "status": "passed",
+      "note": "Initial local login screen is visible."
+    },
+    {
+      "step": "02_create_account_screen",
+      "status": "passed",
+      "note": "Sign-up screen renders from login."
+    },
+    {
+      "step": "03_home_after_login",
+      "status": "passed",
+      "note": "Backend-authenticated login lands on home."
+    },
+    {
+      "step": "04_explore",
+      "status": "passed",
+      "note": "Explore loads with the new discovery tabs."
+    },
+    {
+      "step": "05_conversations",
+      "status": "passed",
+      "note": "Conversation list opens without crashing."
+    },
+    {
+      "step": "06_profile",
+      "status": "passed",
+      "note": "Profile page shows completeness and utility surfaces."
+    },
+    {
+      "step": "07_profile_settings",
+      "status": "passed",
+      "note": "Profile settings are reachable from profile."
+    },
+    {
+      "step": "08_lookbooks",
+      "status": "passed",
+      "note": "Lookbooks page loads from settings."
+    },
+    {
+      "step": "09_create_lookbook_dialog",
+      "status": "passed",
+      "note": "Create lookbook dialog opens and accepts input."
+    },
+    {
+      "step": "10_lookbook_created",
+      "status": "passed",
+      "note": "A durable lookbook can be created in-app."
+    },
+    {
+      "step": "11_safety_center",
+      "status": "passed",
+      "note": "Safety Center is reachable from settings."
+    },
+    {
+      "step": "12_create_post",
+      "status": "passed",
+      "note": "Create-post entry point opens the SFW look composer."
+    }
+  ],
+  "screensVisited": [
+    "01_login_screen",
+    "02_create_account_screen",
+    "03_home_after_login",
+    "04_explore",
+    "05_conversations",
+    "06_profile",
+    "07_profile_settings",
+    "08_lookbooks",
+    "09_create_lookbook_dialog",
+    "10_lookbook_created",
+    "11_safety_center",
+    "12_create_post"
+  ],
+  "screenshotNames": [
+    "01_login_screen",
+    "02_create_account_screen",
+    "03_home_after_login",
+    "04_explore",
+    "05_conversations",
+    "06_profile",
+    "07_profile_settings",
+    "08_lookbooks",
+    "09_create_lookbook_dialog",
+    "10_lookbook_created",
+    "11_safety_center",
+    "12_create_post"
+  ]
+}
