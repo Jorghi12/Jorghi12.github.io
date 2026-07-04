@@ -54,8 +54,8 @@ img {
 body.landing-page {
   min-height: 100vh;
   min-height: 100svh;
-  background: #0c0d0b;
-  color: #f8f5ec;
+  background: var(--bg);
+  color: var(--text);
   font-family: var(--sans);
 }
 
@@ -64,51 +64,50 @@ body.landing-page {
   min-height: 100vh;
   min-height: 100svh;
   display: grid;
-  place-items: center;
+  align-items: center;
   margin: 0 auto;
-  padding: clamp(1.35rem, 4vw, 3rem);
+  padding: clamp(2rem, 7vw, 6rem);
 }
 
 .simple-home {
-  width: min(100%, 72rem);
+  width: min(100%, 58rem);
   display: grid;
-  justify-items: center;
-  text-align: center;
+  justify-items: start;
+  text-align: left;
 }
 
 .simple-home .hero-title {
-  max-width: 16.5ch;
-  margin: 0 0 clamp(1.5rem, 3vw, 2.25rem);
-  color: #f8f5ec;
+  max-width: 12.6ch;
+  margin: 0 0 clamp(2.2rem, 4vw, 3.4rem);
+  color: var(--text);
   font-family: var(--sans);
-  font-size: clamp(3.15rem, 6.9vw, 6.25rem);
-  line-height: 0.98;
+  font-size: clamp(3.6rem, 8.8vw, 8rem);
+  line-height: 0.91;
   letter-spacing: 0;
-  font-weight: 560;
-  text-wrap: balance;
+  font-weight: 650;
 }
 
 .simple-home .inline-links {
-  justify-content: center;
-  max-width: 34rem;
-  gap: 0.72rem 1.05rem;
-  color: rgba(248, 245, 236, 0.68);
+  justify-content: flex-start;
+  max-width: 32rem;
+  gap: 0.7rem 1.35rem;
+  color: var(--muted);
   font-size: 0.98rem;
-  line-height: 1.4;
+  line-height: 1.45;
 }
 
 .simple-home .inline-links a {
   color: inherit;
-  text-decoration-color: rgba(205, 180, 112, 0.38);
+  text-decoration-color: rgba(23, 20, 17, 0.22);
   text-decoration-thickness: 1px;
-  text-underline-offset: 0.28em;
+  text-underline-offset: 0.26em;
   transition: color 160ms ease, text-decoration-color 160ms ease;
 }
 
 .simple-home .inline-links a:hover,
 .simple-home .inline-links a:focus-visible {
-  color: #f8f5ec;
-  text-decoration-color: #cdb470;
+  color: var(--text);
+  text-decoration-color: currentColor;
 }
 
 .site-header {
