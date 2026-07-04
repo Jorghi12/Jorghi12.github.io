@@ -51,27 +51,61 @@ img {
   padding: 2rem 1.75rem 4rem;
 }
 
+body.landing-page {
+  min-height: 100vh;
+  min-height: 100svh;
+  background: #11130f;
+  color: #f4efe4;
+  font-family: var(--sans);
+}
+
 .landing-page .site-shell {
+  width: min(100%, 78rem);
+  min-height: 100vh;
   min-height: 100svh;
   display: grid;
-  place-items: center;
-  padding-block: 3rem;
+  align-items: center;
+  margin: 0 auto;
+  padding: clamp(2rem, 5vw, 4.75rem);
 }
 
 .simple-home {
-  width: min(100%, 42rem);
+  width: min(100%, 58rem);
 }
 
 .simple-home .hero-title {
-  max-width: 11ch;
-  margin-bottom: 2rem;
-  font-size: 5.5rem;
-  line-height: 0.95;
+  max-width: 11.8ch;
+  margin: 0 0 clamp(2rem, 4vw, 3rem);
+  color: #f4efe4;
+  font-family: var(--sans);
+  font-size: clamp(3rem, 8.8vw, 7.75rem);
+  line-height: 0.96;
   letter-spacing: 0;
+  font-weight: 520;
 }
 
 .simple-home .inline-links {
-  max-width: 34rem;
+  max-width: 40rem;
+  gap: 0.8rem 1.3rem;
+  padding-top: 1.15rem;
+  border-top: 1px solid rgba(244, 239, 228, 0.18);
+  color: rgba(244, 239, 228, 0.72);
+  font-size: clamp(0.95rem, 1.5vw, 1.04rem);
+  line-height: 1.35;
+}
+
+.simple-home .inline-links a {
+  color: inherit;
+  text-decoration-color: rgba(244, 239, 228, 0.28);
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.24em;
+  transition: color 160ms ease, text-decoration-color 160ms ease;
+}
+
+.simple-home .inline-links a:hover,
+.simple-home .inline-links a:focus-visible {
+  color: #f4efe4;
+  text-decoration-color: #d8c68f;
 }
 
 .site-header {
@@ -137,7 +171,7 @@ img {
   font-family: var(--sans);
   font-size: clamp(2.8rem, 7vw, 5rem);
   line-height: 0.96;
-  letter-spacing: -0.05em;
+  letter-spacing: 0;
   font-weight: 600;
 }
 
@@ -233,7 +267,7 @@ img {
   font-family: var(--sans);
   font-size: clamp(2.4rem, 6vw, 3.8rem);
   line-height: 0.98;
-  letter-spacing: -0.04em;
+  letter-spacing: 0;
   font-weight: 600;
 }
 
@@ -269,7 +303,7 @@ img {
   font-family: var(--sans);
   font-size: 1.35rem;
   line-height: 1.1;
-  letter-spacing: -0.02em;
+  letter-spacing: 0;
   font-weight: 600;
 }
 
@@ -320,7 +354,7 @@ img {
   font-family: var(--sans);
   font-size: 1.12rem;
   line-height: 1.25;
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
   font-weight: 600;
 }
 
@@ -366,7 +400,7 @@ img {
   margin-bottom: 0.35rem;
   font-family: var(--sans);
   font-size: 1rem;
-  letter-spacing: -0.01em;
+  letter-spacing: 0;
 }
 
 .detail-copy p {
@@ -440,11 +474,11 @@ img {
   }
 
   .landing-page .site-shell {
-    padding-block: 2rem;
+    padding: 2rem 1.25rem;
   }
 
   .simple-home .hero-title {
-    font-size: 3.35rem;
+    font-size: clamp(2.45rem, 12vw, 3.45rem);
   }
 
   .site-header {
