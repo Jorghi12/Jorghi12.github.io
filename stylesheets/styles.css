@@ -51,6 +51,29 @@ img {
   padding: 2rem 1.75rem 4rem;
 }
 
+.landing-page .site-shell {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
+  padding-block: 3rem;
+}
+
+.simple-home {
+  width: min(100%, 42rem);
+}
+
+.simple-home .hero-title {
+  max-width: 11ch;
+  margin-bottom: 2rem;
+  font-size: 5.5rem;
+  line-height: 0.95;
+  letter-spacing: 0;
+}
+
+.simple-home .inline-links {
+  max-width: 34rem;
+}
+
 .site-header {
   display: flex;
   align-items: center;
@@ -414,6 +437,14 @@ img {
 @media (max-width: 640px) {
   .site-shell {
     padding: 1.25rem 1.1rem 3rem;
+  }
+
+  .landing-page .site-shell {
+    padding-block: 2rem;
+  }
+
+  .simple-home .hero-title {
+    font-size: 3.35rem;
   }
 
   .site-header {

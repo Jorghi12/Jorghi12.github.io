@@ -1,12 +1,10 @@
-// Update the email placeholder before publishing the site.
 window.SITE_CONFIG = Object.freeze({
   siteName: "Jörg Doku",
   siteUrl: "https://jorgdoku.com",
   contacts: Object.freeze({
     email: Object.freeze({
-      label: "Email",
-      href: "mailto:YOUR_EMAIL_HERE",
-      placeholder: true
+      label: "jorgdoku@gmail.com",
+      href: "mailto:jorgdoku@gmail.com"
     }),
     linkedin: Object.freeze({
       label: "LinkedIn",
