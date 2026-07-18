@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://jorgdoku.com/</loc>
+    <lastmod>2026-07-18</lastmod>
+    <image:image>
+      <image:loc>https://jorgdoku.com/jorg-doku-portrait.jpg</image:loc>
+      <image:caption>Portrait of Jörg Doku, AI engineer, entrepreneur, and angel investor</image:caption>
+      <image:title>Jörg Doku</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jorgdoku.com/bio.html</loc>
+    <lastmod>2026-07-18</lastmod>
+    <image:image>
+      <image:loc>https://jorgdoku.com/jorg-doku-portrait.jpg</image:loc>
+      <image:caption>Professional portrait of Jörg Doku</image:caption>
+      <image:title>Jörg Doku bio</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://jorgdoku.com/books.html</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
+    <loc>https://jorgdoku.com/my-favorite-reads-in-2026.html</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
+    <loc>https://jorgdoku.com/my-favorite-reads-in-2024.html</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
+    <loc>https://jorgdoku.com/my-favorite-reads-in-2023.html</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
+    <loc>https://jorgdoku.com/my-favorite-reads-in-2019.html</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+  <url>
+    <loc>https://jorgdoku.com/my-favorite-reads-in-2017.html</loc>
+    <lastmod>2026-07-18</lastmod>
+  </url>
+</urlset>

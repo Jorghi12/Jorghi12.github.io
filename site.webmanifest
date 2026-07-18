@@ -1,0 +1,17 @@
+{
+  "name": "Jörg Doku",
+  "short_name": "Jörg Doku",
+  "description": "AI systems, company building, and investing.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f5f2eb",
+  "theme_color": "#f5f2eb",
+  "icons": [
+    {
+      "src": "/favicon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

@@ -8,11 +8,13 @@ window.SITE_CONFIG = Object.freeze({
     }),
     linkedin: Object.freeze({
       label: "LinkedIn",
-      href: "https://linkedin.com/in/jorgdoku"
+      href: "https://linkedin.com/in/jorgdoku",
+      ariaLabel: "Jörg Doku on LinkedIn"
     }),
     x: Object.freeze({
       label: "X",
-      href: "https://x.com/JorgDoku"
+      href: "https://x.com/JorgDoku",
+      ariaLabel: "Jörg Doku on X"
     })
   })
 });
